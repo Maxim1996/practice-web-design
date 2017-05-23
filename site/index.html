@@ -7,220 +7,53 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
         <title>Basic Bootstrap Template</title>  
-        <link rel="stylesheet" href="C:\Практика\pr-8\Klimov\Новая папка\web\bootstrap\css\bootstrap.min.css">
-        <link rel="stylesheet" href="C:\Практика\pr-8\Klimov\Новая папка\Новая папка\style.css">
+        <link rel="stylesheet" href="web/bootstrap/css/bootstrap.min.css">
     </head>
     <body>
-<div class="container-fluid">
-<nav class="navbar navbar-toggleable-md navbar-light col-md-12" style="background-color: #F5F5F5;">
+
+<nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
   <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <a class="navbar-brand" href="#">
-  
-  <div><img src="C:\Практика\pr-8\Klimov\project\logo.png" width="60" height="60" class="d-inline-block align-top" alt=""></div>
-  <div style="text-align:center">
-  <span style="color: #626262; text-align:center; font-family: verdana;">Новосибирский колледж электроники</br>и вычислительной техники</span></a>
-</div>
+  <a class="navbar-brand" href="#">Бренд</a>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    
-    <ul class="nav nav-pills nav-justified mr-auto">
-      <li class="nav-item">
-        <a class="nav-link active" href="#" style="font-family: verdana; font-size: 13pt">Новости</a>
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Главная<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#" style="font-family: verdana; font-size: 13pt">Отзывы</a>
+        <a class="nav-link" href="#">Статьи</a>
       </li>
-     <li class="nav-item">
-        <a class="nav-link" href="#" style="font-family: verdana; font-size: 13pt">Преподаватели</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#" style="font-family: verdana; font-size: 13pt">Обучение</a>
-      </li>
-       <li class="nav-item">
-        <a class="nav-link" href="#" style="font-family: verdana; font-size: 13pt">О нас</a>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Новости
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Windows</a>
+          <a class="dropdown-item" href="#">Mac OS</a>
+          <a class="dropdown-item" href="#">Linux</a>
+          <a class="dropdown-item" href="#">Другие системы</a>
+        </div>
       </li>
     </ul>
-<div style="padding-right: 60px">
-    <spam style="font-family: verdana"><b>Контактный телефон:</b> +7 (383) 226-35-69</spam>
-    </br>
-    <spam style="font-family: verdana"><b>Адрес:</b> ул. Красный проспект, д. 177</spam>
-</div>
-
-    <form class="form-inline my-2 my-lg-0"><a href="index.html">
-  <img src="C:\Практика\pr-8\Klimov\project\check.png" width="60" height="60">
-      <button class="btn btn-warning" type="submit" style="font-family: verdana; font-size: 14pt">Записаться на курс</button>
-</a>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="text" placeholder="Найти">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Войти</button>
     </form>
   </div>
+
 </nav>
-</br>
-</div>
-<div class="container">
 
-<div id="carouselExampleIndicators"  class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner" role="listbox">
-    <!-- <div class="carousel-item active">
-      <img class="d-block img-fluid" src="image1.jpg" alt="First slide" style="width: 100%; height: 100%">
-    </div> -->
-
-  <div class="carousel-item active">
-  <img src="man.jpg" alt="First slide" style="width: 100%; height: 720px">
-  <div  style="padding-bottom: 220px; padding-right: 520px; padding-top: 15px; padding-left: 20px; position: absolute; width: 1000px; font-family: arial;">
-    <h3 style="text-shadow: #5dc8e5 0 0 10px; text-align: center;">Lorem</h3>
-    <p style="text-shadow: #5dc8e5 0 0 10px">
-Курс содержит методические разработки (конспекты) уроков, адаптирован для учащихся ориентировочно 5-7 классов и предназначен для самостоятельного изучения или освоения тем под руководством педагога.
-
-В цикле уроков "Введение в Scratch" рассматриваются: организация интерфейса среды программирования Scratch; понятие о программе (сценарии, скрипте) объекта (спрайта); система координат и направление движения; циклы и условные операторы; последовательное и параллельное выполнение команд; изменение свойств объекта; события, интерактивность и диалоговый режим выполнения программы; использование переменных и генератора случайных чисел; составление программ, рисующих на холсте; создание и изменение объектов и библиотеки объектов; создание эффекта смены сцены.</p>
-    <a href="#" style="padding-left: 60px;"><button class="btn btn-danger" type="submit" style="font-family: verdana; font-size: 14pt;">Запишись прямо сейчас</button></a>
-  </div>
-</div>
-
-<div class="carousel-item">
-  <img src="mac.jpg" alt="Second slide" style="width: 100%; height: 720px">
-  <div class="carousel-caption d-none d-md-block">
-    <h3>Lorem</h3>
-    <p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
-
-  </div>
-</div>
-
-<div class="carousel-item">
-  <img src="win9.jpg" alt="Third slide" style="width: 100%; height: 720px">
-  <div class="carousel-caption d-none d-md-block">
-    <h3>Lorem</h3>
-    <p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
-  </div>
-</div>
-
-
-
-
-    <!-- <div class="carousel-item">
-      <img class="d-block img-fluid" src="image2.jpg" alt="Second slide" style="width: 100%; height: 100%">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block img-fluid" src="image3.jpg" alt="Third slide" style="width: 100%; height: 100%">
-    </div> -->
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-    </br>
-    </br>
-    </br>
-
- <div class="row row-margin-bottom">
-    <div class="col-md-6">
-      <div class="lib-panel">
-        <div class="row box-shadow">
-          <div class="col-md-6">
-            <img class="lib-img-show" src="http://itchief.ru/assets/demo/image/image1-400-400.jpg">
-          </div>
-          <div class="col-md-6">
-            <div class="lib-row lib-header">
-              <a href="#">Lorem ipsum</a>
-              <div class="lib-header-seperator"></div>
-            </div>
-            <div class="lib-row lib-desc">
-              
-              <p>Omnis voluptas assumenda est, omnis voluptas nulla vero eos et expedita. Nulla vero eos et molestiae consequatur, vel eum iure reprehenderit. Quisquam est, omnis voluptas nulla vero eos et molestiae. Quibusdam et iusto odio dignissimos ducimus, qui perspiciatis.</p>
-              
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-6">
-      <div class="lib-panel">
-        <div class="row box-shadow">
-          <div class="col-md-6">
-            <img class="lib-img-show" src="http://itchief.ru/assets/demo/image/image2-400-400.jpg">
-          </div>
-          <div class="col-md-6">
-            <div class="lib-row lib-header">
-              <a href="#">Lorem ipsum</a>
-              <div class="lib-header-seperator"></div>
-            </div>
-            <div class="lib-row lib-desc">
-              
-              <p>Omnis voluptas assumenda est, omnis voluptas nulla vero eos et expedita. Nulla vero eos et molestiae consequatur, vel eum iure reprehenderit. Quisquam est, omnis voluptas nulla vero eos et molestiae. Quibusdam et iusto odio dignissimos ducimus, qui perspiciatis.</p>
-              
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="clearfix visible-md-block"></div>
-    <div class="col-md-6">
-      <div class="lib-panel">
-        <div class="row box-shadow">
-          <div class="col-md-6">
-            <img class="lib-img-show" src="http://itchief.ru/assets/demo/image/image3-400-400.jpg">
-          </div>
-          <div class="col-md-6">
-            <div class="lib-row lib-header">
-              <a href="#">Lorem ipsum</a>
-              <div class="lib-header-seperator"></div>
-            </div>
-            <div class="lib-row lib-desc">
-              
-              <p>Omnis voluptas assumenda est, omnis voluptas nulla vero eos et expedita. Nulla vero eos et molestiae consequatur, vel eum iure reprehenderit. Quisquam est, omnis voluptas nulla vero eos et molestiae. Quibusdam et iusto odio dignissimos ducimus, qui perspiciatis.</p>
-              
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-6">
-      <div class="lib-panel">
-        <div class="row box-shadow">
-          <div class="col-md-6">
-            <img class="lib-img-show" src="http://itchief.ru/assets/demo/image/image4-400-400.jpg">
-          </div>
-          <div class="col-md-6">
-            <div class="lib-row lib-header">
-              <a href="#">Lorem ipsum</a>
-              <div class="lib-header-seperator"></div>
-            </div>
-            <div class="lib-row lib-desc">
-              
-              <p>Omnis voluptas assumenda est, omnis voluptas nulla vero eos et expedita. Nulla vero eos et molestiae consequatur, vel eum iure reprehenderit. Quisquam est, omnis voluptas nulla vero eos et molestiae. Quibusdam et iusto odio dignissimos ducimus, qui perspiciatis.</p>
-              
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-<div class="row" style="background-color: #DCDCDC">
-<div class="col-lg-3"><p style="text-align: center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam egestas vel quam non ullamcorper. Vestibulum sed pulvinar magna. Sed eleifend nec est id viverra. Aenean ac massa neque. Suspendisse potenti. Vivamus lobortis porta tempor.</p>
-<button type="button" class="btn btn-primary">Узнать подробнее</button></div>
-<div class="col-lg-6"><p style="text-align: center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam egestas vel quam non ullamcorper. Vestibulum sed pulvinar magna. Sed eleifend nec est id viverra. Aenean ac massa neque. Suspendisse potenti. Vivamus lobortis porta tempor. Ut egestas, arcu vel vestibulum finibus, nunc nisi vestibulum erat, vitae eleifend metus massa a est. Fusce ligula mauris, dictum at sapien vitae, ornare placerat justo. Nam lorem magna, porttitor et mollis vitae, condimentum vitae tellus.</p>
-<button type="button" class="btn btn-primary">Узнать подробнее</button></div>
-<div class="col-lg-3"><p style="text-align: center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam egestas vel quam non ullamcorper. Vestibulum sed pulvinar magna. Sed eleifend nec est id viverra. Aenean ac massa neque. Suspendisse potenti. Vivamus lobortis porta tempor.</p>
-<button type="button" class="btn btn-primary">Узнать подробнее</button></div>
-</div>
-
-</div>
-       
+<ol class="breadcrumb">
+  <li class="breadcrumb-item"><a href="#">Home</a></li>
+  <li class="breadcrumb-item"><a href="#">Library</a></li>
+  <li class="breadcrumb-item active">Data</li>
+</ol>
 
         
-        <script src="C:\Практика\pr-8\Klimov\Новая папка\web\bootstrap\js\jquery-3.2.1.min.js"></script>
-        <script src='C:\Практика\pr-8\Klimov\Новая папка\web\bootstrap\js\tether.min.js'></script>
-        <script src="C:\Практика\pr-8\Klimov\Новая папка\web\bootstrap\js\bootstrap.min.js"></script>
+        <script src="web/bootstrap/js/jquery-3.2.1.min.js"></script>
+        <script src='web/bootstrap/js/tether.min.js'></script>
+        <script src="web/bootstrap/js/bootstrap.min.js"></script>
     </body>
 </html>
